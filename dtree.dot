@@ -1,0 +1,28 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Astigmatism <= 0.5\nentropy = 1.5656\nsamples = 15\nvalue = [6, 4, 5]"] ;
+1 [label="Age <= 0.5\nentropy = 1.3788\nsamples = 7\nvalue = [1, 4, 2]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Spectacle Prescription <= 0.5\nentropy = 0.9183\nsamples = 3\nvalue = [1, 0, 2]"] ;
+1 -> 2 ;
+3 [label="entropy = 0.0\nsamples = 1\nvalue = [1, 0, 0]"] ;
+2 -> 3 ;
+4 [label="entropy = 0.0\nsamples = 2\nvalue = [0, 0, 2]"] ;
+2 -> 4 ;
+5 [label="entropy = 0.0\nsamples = 4\nvalue = [0, 4, 0]"] ;
+1 -> 5 ;
+6 [label="Age <= 0.5\nentropy = 0.9544\nsamples = 8\nvalue = [5, 0, 3]"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label="entropy = 0.0\nsamples = 2\nvalue = [2, 0, 0]"] ;
+6 -> 7 ;
+8 [label="Tear Production Rate <= 0.5\nentropy = 1.0\nsamples = 6\nvalue = [3, 0, 3]"] ;
+6 -> 8 ;
+9 [label="entropy = 0.0\nsamples = 2\nvalue = [0, 0, 2]"] ;
+8 -> 9 ;
+10 [label="Spectacle Prescription <= 0.5\nentropy = 0.8113\nsamples = 4\nvalue = [3, 0, 1]"] ;
+8 -> 10 ;
+11 [label="entropy = 0.0\nsamples = 1\nvalue = [0, 0, 1]"] ;
+10 -> 11 ;
+12 [label="entropy = 0.0\nsamples = 3\nvalue = [3, 0, 0]"] ;
+10 -> 12 ;
+}

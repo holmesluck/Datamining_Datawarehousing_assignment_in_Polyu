@@ -1,0 +1,16 @@
+Customer No.,Sex,Average No. of Transactions,Average Monthly Payment,Average No. of months in Silver,Decision
+1,F ,8,301,4,Remain 
+2,M ,18,448,8,Downgrade 
+3,F ,5,305,9,Remain 
+4,M ,3,309,6,Downgrade 
+5,F ,11,522,10,Remain 
+6,M ,3,650,13,Downgrade 
+7,F ,9,490,5,Upgrade 
+8,M ,10,300,7,Upgrade 
+9,F ,7,274,12,Downgrade 
+10,F ,20,575,15,Upgrade 
+11,M ,22,530,9,Downgrade 
+12,F ,14,363,6,Upgrade 
+13,M ,10,409,8,Remain 
+14,M ,15,479,7,Remain 
+15,M ,13,445,11,Remain 
